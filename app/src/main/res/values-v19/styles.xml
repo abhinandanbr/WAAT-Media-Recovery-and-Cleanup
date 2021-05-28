@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="Splash" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/img_splash</item>
+    </style>
+
+    <style name="Splash2" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/splash_color</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/splash_color</item>
+    </style>
+
+    <style name="Intro" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppThemeNavDraw" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#3f6cb5</item>
+        <!-- Light Indigo -->
+        <item name="colorPrimaryDark">#395bab</item>
+        <!-- Dark Indigo -->
+        <item name="colorAccent">#0051ff</item>
+    </style>
+
+    <style name="DialogAnim">
+        <item name="android:windowEnterAnimation">@anim/anim_dialog_open</item>
+        <item name="android:windowExitAnimation">@anim/anim_dialog_close</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button.Colored" >
+        <item name="backgroundTint">#cd8cff</item>
+    </style>
+
+</resources>

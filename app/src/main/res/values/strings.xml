@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">WAAT</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_donate">Donate</string>
+    <string name="exit_settings">Exit</string>
+    <string name="btn1">System Settings</string>
+    <string name="btn2">Location Settings</string>
+    <string name="text_studio">Abi Studios</string>
+    <string name="listAppsTitle">Location Access Granted to</string>
+    <string name="listUsageTitle">Usage Info</string>
+    <string name="splash_studio">Developed by Abi Studios</string>
+    <string name="action_home">Home</string>
+    <string-array name="nav_drawer_labels">
+        <item>@string/action_home</item>
+        <item>@string/action_settings</item>
+        <item>@string/action_about</item>
+    </string-array>
+    <string name="main_text">0 MB</string>
+    <string name="usage_mode">Needs App Usage Access !</string>
+    <string name="donate_mode">Available in Donate Version Only !</string>
+    <string name="erd_title">Rate this app</string>
+    <string name="erd_message">Looks like you\'re enjoying this app a lot!\nPlease take a minute to rate this app and help support to add more new features.</string>
+    <string name="erd_no_thanks">No, thanks.</string>
+    <string name="erd_remind_me_later">Remind me later.</string>
+    <string name="erd_rate_now">Rate now.</string>
+    <string name="optimize_check">Looks like battery Optimization is ON. For detection, disable battery optimization for this application.
+        \n\nClick here to goto battery settings!</string>
+    <string name="optimize_checkPop">Looks like battery Optimization is ON. For detection, disable battery optimization for this application.
+        \nClick on Disable. (Make sure to be in the "all apps" list) Then find "Whats Track" app from the list and click. Select Don\'t Optimize.
+        \n\nDisable Now!</string>
+    <string name="storage_checkPop">In order to detect recent GPS usage apps. Please enable Storage Access!</string>
+    <string name="optimize_checkMi">Make sure battery Optimization is OFF. For detection, disable battery optimization for this application.
+        \n\nClick here to goto battery settings if Android > M. For MI devices manually goto Security App too.</string>
+    <string name="action_about">About</string>
+    <string name="action_rate">Rate</string>
+    <string name="about_me">A freelance android developer\, developing applications that users long for, loves to do unique ones.\nGot any ideas or issues with the app? Email Me !</string>
+    <string name="about_version"></string>
+    <string name="intro_version">v2.5.7</string>
+    <string name="apache"><u>Apache v2.0: MPAndroidChart</u></string>
+    <string name="title_activity_splash">Activity_Splash</string>
+    <string name="slide1">Welcome to the cleaner app!\nThe app is the best and powerful tool to clean received and sent media via WhatsApp.\nThe app can also recover deleted messages.</string>
+    <string name="slide2">The app can recover deleted Whatsapp message. This feature requires Notification Listener Permission. Click to enable! You can also enable it later in the app.
+    \n\nNote: \nMessages can be recovered only if it appears as notification. If it is muted, we won\'t be able to recover it!</string>
+    <string name="slide3">The app also needs Location, Wi-Fi and Bluetooth permissions to monitor and notify. Please grant access if prompted, and you\'re all set.</string>
+    <string name="slide5">To use Ringer Track(optional), DND Access is required.\nClick Button and provide access now.\nYou can also enable it later in Settings.\n\n(Only if purchased) We also require Email Access only to verify In-App purchases.</string>
+    <string name="slide6">To display Recent GPS Access list (Available in donate version only), \nApp Usage Access is required!</string>
+    <string name="slide6_title">GPS : Recent Usage</string>
+    <string name="string_email">abi.studios19@gmail.com</string>
+    <string name="changeLog">
+        * Initial release \n
+        * More features coming soon \n
+    </string>
+    <string name="rateTitle">Rate the app</string>
+    <string name="rateMessage">Looks like you\'re enjoying the app a lot!! Please take a minute to rate and help support to add more new features!</string>
+
+    <string name="notiMessage">For the the app. to work you need to enable the Notification Listener Service. Enable it now?</string>
+
+
+    <string name="help_main1">Displays usage information folder-wise. Select any folder to view delete options.</string>
+    <string name="help_main2">List of 5 probable apps that have recently used GPS.\n(Donate Feature)</string>
+    <string name="help_main3">List of installed apps with Location Access Granted.\nTIP:Tap on the app to access its app info.</string>
+    <string name="help_main4">Thank you for downloading the app. Please Rate and Donate!</string>
+
+    <string name="help_set1">The setting will enable notifications to be permanent (or set to Ongoing), and cannot be swipe dismissed.</string>
+    <string name="help_set2">The setting controls which module to keep track OF and notify you.</string>
+    <string name="help_set4">The setting shows Miscellaneous setting options.</string>
+    <string name="help_set5">The setting controls the ringer mode needed to keep track OF.\nUser will be notified if the Ringer mode is changed to anything other than the user selected option.</string>
+
+
+    <string name="adUnitID">ca-app-pub-4248687703418801/3083820309</string>
+    <string name="adUnitID_Inter">ca-app-pub-4248687703418801/2588996280</string>
+
+    <!--<string name="adUnitIDTest">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="adUnitID_InterTest">ca-app-pub-3940256099942544/1033173712</string>-->
+
+
+    <string name="IABTitle">Donate (Zero Ad Package)</string>
+    <string name="IABsub1">Small Donation - \u0020  </string>
+    <string name="IABsub2">Medium Donation  - \u0020 </string>
+    <string name="IABsub3">Large Donation - \u0020  </string>
+    <string name="IABsub4">Generous Donation - \u0020 </string>
+    <string name="IABAccount">Choose account for Billing</string>
+    <string name="IABAccountVerify">Choose account to Verify Billing</string>
+    <string name="IABAccountDes">The account chosen must exist in your device at all times for future verification. If you want to use the app in multiple devices, please install the app from the same account used for purchase!</string>
+    <string name="IABAccountDesVerify">Looks like you have purchased the App. Due to restrictions in Android you need to choose the account used for purchase manually.This is a onetime action only!</string>
+
+    <string-array name="Folders">
+        <item>Images</item>
+        <item>Videos</item>
+        <item>Audios</item>
+        <item>Voices</item>
+        <item>Stickers</item>
+    </string-array>
+
+    <string-array name="FolderseAlias">
+        <item>"img"</item>
+        <item>"vid"</item>
+        <item>"aud"</item>
+        <item>"voice"</item>
+        <item>"stickers"</item>
+    </string-array>
+
+</resources>

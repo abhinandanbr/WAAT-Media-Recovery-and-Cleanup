@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:key="cat_autoClean"
+        app:title="Auto Clean">
+
+        <SwitchPreference
+        app:key="autoCleanDB"
+        app:title="Auto Clean Database"
+            android:defaultValue="false"
+        app:summary="Clean up database automatically (Donate feature only).
+You will get a notification when Database is cleared of junk unused backups."/>
+
+        <Preference
+            app:key="autoCleanMedia"
+            app:title="Auto Clean Media"
+            android:enabled="false"
+            app:summary="Clean up Media automatically (Coming Soon)"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="cat_autoRecovery"
+        app:title="Auto Recovery">
+    <SwitchPreference
+        app:key="NListener"
+        app:title="Notification Listener"
+        android:defaultValue="false"
+        app:summary="Enable Notification Listener to recover deleted messages." />
+    </PreferenceCategory>
+
+</PreferenceScreen>

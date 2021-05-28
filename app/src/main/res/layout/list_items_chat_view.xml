@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/about_card2"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/about_card"
+        android:paddingRight="@dimen/about_card"
+        android:orientation="vertical"
+        android:background="@drawable/background_chat_bubble">
+
+        <TextView
+            android:id="@+id/list_text"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="gravity"
+            android:textSize="@dimen/text_size_chats"
+            android:textIsSelectable="true"
+            android:text="Message"/>
+
+        <TextView
+            android:id="@+id/list_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_gravity="right|center_vertical"
+            android:textAlignment="gravity"
+            android:text="Time"
+            android:textSize="@dimen/about_version" />
+
+    </LinearLayout>
+
+</LinearLayout>

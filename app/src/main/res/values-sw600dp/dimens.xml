@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--Large Tablets only-->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="about_card">48dp</dimen>
+    <dimen name="about_version">10dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="text_size_list">20sp</dimen>
+    <dimen name="text_size_chats">18sp</dimen>
+    <dimen name="textSizeintro">24sp</dimen>
+    <dimen name="about_card2">28dp</dimen>
+    <dimen name="switch_margin">58dp</dimen>
+    <dimen name="textsizeCount">18sp</dimen>
+    <dimen name="textSize">18sp</dimen>
+
+
+</resources>

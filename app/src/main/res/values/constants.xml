@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="rate_min_times">3</integer>
+    <integer name="rate_min_days">1</integer>
+    <integer name="ad_rate_min_times">3</integer>
+    <integer name="ad_rate_min_times_notify">2</integer>
+    <integer name="ad_rate_min_times_on_destroy">-1</integer>
+
+
+    <integer name="anim_setting_dur">800</integer>
+    <integer name="anim_splash_dur">650</integer>
+    <integer name="anim_splash_scale">650</integer>
+    <integer name="anim_about">800</integer>
+    <integer name="anim_layout">700</integer>
+    <integer name="anim_dialog">550</integer>
+    <integer name="anim_fade">800</integer>
+    <integer name="anim_list">500</integer>
+
+    <bool name="adEnable">true</bool>
+
+    <item name="screen_size" format="float" type="fraction">5.4</item>
+
+</resources>

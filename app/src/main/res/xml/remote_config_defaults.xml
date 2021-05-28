@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>android_latest_version_code</key>
+        <value>null</value>
+    </entry>
+
+    <entry>
+        <key>base</key>
+        <value>null</value>
+    </entry>
+    <entry>
+        <key>pre_base</key>
+        <value>WhatsTrack_tofuture</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

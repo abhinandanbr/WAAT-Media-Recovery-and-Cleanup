@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:key="cat_autoClean"
+        app:title="Auto Clean Media">
+        <SwitchPreference
+            app:key="autoCleanMediasub"
+            app:title="Enable Auto Clean"
+            android:defaultValue="false"
+            app:summary="Enable or Disable Auto Clean of whatsapp media." />
+
+
+        <Preference
+            app:key="autoCleanMethod"
+            app:title="Auto Clean Type"
+            android:enabled="true"
+            app:summary="Clean up Media automatically"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="cat_autocleanReg"
+        app:title="Auto Recovery"
+        android:shouldDisableView="true">
+        <ListPreference
+            android:key="list_preference"
+            android:title="List of Folders"
+            android:dialogTitle="Select Folders"
+            android:entries="@array/Folders"
+            android:entryValues="@array/FolderseAlias" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="cat_autocleanStorage"
+        app:title="Auto Recovery">
+        <ListPreference
+            android:key="list_preference"
+            android:title="List of Folders"
+            android:dialogTitle="Select Folders"
+            android:entries="@array/Folders"
+            android:entryValues="@array/FolderseAlias" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

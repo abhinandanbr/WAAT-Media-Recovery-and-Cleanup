@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/about_card2"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <ImageView
+        android:layout_width="0dip"
+        android:layout_height="60dip"
+        android:layout_weight="0.5"
+        android:id="@+id/list_icon"/>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/about_card2"
+        android:orientation="vertical"
+        android:layout_weight="3.5">
+
+        <TextView
+            android:id="@+id/list_text"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/about_card"
+            android:gravity="center_vertical|left"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textSize="@dimen/text_size_list"
+            android:text="List"/>
+
+        <TextView
+            android:id="@+id/list_size"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="@dimen/about_card"
+            android:gravity="center_vertical|right"
+            android:paddingLeft="@dimen/about_card"
+            android:text="Size"
+            android:textSize="@dimen/text_size_list" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:paddingBottom="@dimen/about_card2"
+        android:alpha="0.65"
+        android:background="#b6b6b6"/>
+</LinearLayout>

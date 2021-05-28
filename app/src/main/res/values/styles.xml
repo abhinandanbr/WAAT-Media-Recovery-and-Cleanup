@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#3fb588</item>
+        <!-- Light Indigo -->
+        <item name="colorPrimaryDark">#309f73</item>
+        <!-- Dark Indigo -->
+        <item name="colorAccent">#FF4081</item>
+        <item name="preferenceTheme">@style/PrefTheme</item>
+    </style>
+
+    <style name="AppIntroButtonStyleCompat" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="AppDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.Settings" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#3f9db5</item>
+        <!-- Light Indigo -->
+        <item name="colorPrimaryDark">#398dab</item>
+        <!-- Dark Indigo -->
+        <item name="colorAccent">#00c4ff</item>
+    </style>
+
+    <style name="AppTheme.AboutTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#b53f70</item>
+        <!-- Light Indigo -->
+        <item name="colorPrimaryDark">#ab397a</item>
+        <!-- Dark Indigo -->
+        <item name="colorAccent">#ff006a</item>
+        <item name="preferenceTheme">@style/PrefTheme</item>
+    </style>
+
+    <style name="PrefTheme" parent="AppTheme">
+        <item name="preferenceCategoryStyle">@style/CategoryStyle</item>
+    </style>
+
+    <style name="CategoryStyle" parent="Preference.Category">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/img_splash</item>
+    </style>
+
+    <style name="Splash2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/splash_color</item>
+    </style>
+
+<style name="Intro" parent="Theme.AppCompat.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+</style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/splash_color</item>
+    </style>
+
+    <style name="AppIntroTheme" parent="">
+        <item name="colorPrimary">#1976D2</item>
+        <item name="colorPrimaryDark">#1565C0</item>
+        <item name="colorAccent">#E91E63</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppThemeNavDraw" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#3f6cb5</item>
+        <!-- Light Indigo -->
+        <item name="colorPrimaryDark">#395bab</item>
+        <!-- Dark Indigo -->
+        <item name="colorAccent">#0051ff</item>
+    </style>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">#3f6cb5</item>
+        <item name="colorPrimaryDark">#395bab</item>
+        <item name="colorAccent">#0051ff</item>
+    </style>
+    
+    <style name="DialogAnim">
+        <item name="android:windowEnterAnimation">@anim/anim_dialog_open</item>
+        <item name="android:windowExitAnimation">@anim/anim_dialog_close</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button.Colored" >
+        <item name="backgroundTint">#cd8cff</item>
+    </style>
+
+</resources>
