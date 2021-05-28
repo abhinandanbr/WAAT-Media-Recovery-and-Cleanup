@@ -1,4 +1,4 @@
-# Whatsclear
+# WAAT - Media Recovery and Cleanup
 
 Android Application to recover and manage Whatsapp data
 
